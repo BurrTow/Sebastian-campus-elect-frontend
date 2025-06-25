@@ -9,7 +9,7 @@ async function UsersList() {
   }
 
   const users: UserType[] = await res.json()
-
+ 
   return (
     <div>
       {users.map((user) => {

@@ -15,7 +15,7 @@ const StudentsList = async () => {
   )
 
   const students: StudentType[] = await res.json()
-  
+  console.log(students)
   return (
     <div>
       {students.map((student, index) => (
